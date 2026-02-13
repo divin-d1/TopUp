@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta Force Top-Up System</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Optional simple styling for highlight */
+        .highlight {
+            background-color: #d4edda;
+            transition: background-color 1s;
+        }
+    </style>
+</head>
+<body>
+<h1>RFID Top-Up Dashboard</h1>
+
+<div class="topup-form">
+    <input type="text" id="uid" placeholder="Card UID">
+    <input type="number" id="amount" placeholder="Top-up Amount">
+    <button id="topup-btn">Top Up</button>
+</div>
+
+<h2>Card Balances</h2>
+<table id="balances">
+    <thead>
+    <tr>
+        <th>UID</th>
+        <th>Balance</th>
+    </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
