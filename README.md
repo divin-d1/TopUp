@@ -1,4 +1,3 @@
-````markdown
 # RFID Top-Up Dashboard
 
 A **real-time RFID-based Top-Up system** for managing card balances. Users can top-up RFID cards via a web interface, and the dashboard displays live updates using WebSockets.
@@ -9,41 +8,42 @@ A **real-time RFID-based Top-Up system** for managing card balances. Users can t
 
 This project allows:
 
-- Each card to have a **unique UID**.
-- Users to **top-up** amounts for cards through a simple dashboard.
-- **Real-time updates** of balances using WebSockets.
-- Seamless communication between **frontend** and **FastAPI backend**.
+* Each card to have a **unique UID**.
+* Users to **top-up** amounts for cards through a simple dashboard.
+* **Real-time updates** of balances using WebSockets.
+* Seamless communication between **frontend** and **FastAPI backend**.
 
 **Technologies Used:**
 
-- **Backend:** Python, FastAPI, Uvicorn, WebSockets  
-- **Frontend:** HTML, JavaScript (WebSockets & Fetch API)  
-- **Server:** Python HTTP server for static frontend hosting  
+* **Backend:** Python, FastAPI, Uvicorn, WebSockets
+* **Frontend:** HTML, JavaScript (WebSockets & Fetch API)
+* **Server:** Python HTTP server for static frontend hosting
 
 **Data Flow:**
 
-1. Frontend sends top-up requests →  
-2. Backend updates the balance →  
-3. WebSocket pushes the updated balance back to the frontend.
+1. Frontend sends top-up requests
+2. Backend updates the balance
+3. WebSocket pushes the updated balance back to the frontend
 
 ---
 
 ## ⚡ Prerequisites
 
-- Python 3.10+  
-- pip  
-- Git  
-- Access to a server or local machine for hosting frontend & backend  
+* Python 3.10+
+* pip
+* Git
+* Access to a server or local machine for hosting frontend & backend
 
 ---
 
 ## 🛠 Setup Instructions
 
 ### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/divin-d1/TopUp.git
 cd TopUp
-````
+```
 
 ### 2. Backend Setup
 
@@ -106,6 +106,3 @@ http://<server-ip>:8002
 ## 📌 License
 
 This project is for **educational purposes** only. Not intended for production use.
-
----
-
